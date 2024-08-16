@@ -8,7 +8,6 @@ Bundler.require(*Rails.groups)
 
 module PhlexDemo
   class Application < Rails::Application
-
     # this is confusing Brakeman
     # See more here: phlex-ruby/phlex-rails#205
     #
