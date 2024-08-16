@@ -8,9 +8,21 @@ Bundler.require(*Rails.groups)
 
 module PhlexDemo
   class Application < Rails::Application
-    config.autoload_paths << "#{root}/app/views"
-    config.autoload_paths << "#{root}/app/views/layouts"
-    config.autoload_paths << "#{root}/app/views/components"
+
+    # this is confusing Brakeman
+    # See more here: phlex-ruby/phlex-rails#205
+    #
+    # config.autoload_paths << "#{root}/app/views"
+    # config.autoload_paths << "#{root}/app/views/layouts"
+    # config.autoload_paths << "#{root}/app/views/components"
+    #
+    # Instead, we can use the following:
+    config.autoload_paths.push(
+      "#{root}/app/views",
+      "#{root}/app/views/layouts",
+      "#{root}/app/views/components",
+    )
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
