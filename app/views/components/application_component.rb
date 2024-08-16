@@ -9,4 +9,8 @@ class ApplicationComponent < Phlex::HTML
       super
     end
   end
+
+  def heroicon(...)
+    unsafe_raw helpers.heroicon(...)
+  end
 end
