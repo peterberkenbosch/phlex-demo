@@ -209,6 +209,11 @@ GEM
     phlex-rails (1.2.1)
       phlex (~> 1.10.0)
       railties (>= 6.1, < 8)
+    phlex-tabler_icons (0.2.2)
+      phlex (~> 1.6)
+    phlex-testing-capybara (0.1.0)
+      capybara (~> 3.38)
+      phlex (>= 0.5)
     propshaft (0.9.1)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -362,6 +367,8 @@ DEPENDENCIES
   jbuilder
   kamal
   phlex-rails
+  phlex-tabler_icons
+  phlex-testing-capybara
   propshaft
   puma (>= 5.0)
   rails!
