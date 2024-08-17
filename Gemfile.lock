@@ -209,6 +209,11 @@ GEM
     phlex-rails (1.2.1)
       phlex (~> 1.10.0)
       railties (>= 6.1, < 8)
+    phlex-tabler_icons (0.2.2)
+      phlex (~> 1.6)
+    phlex-testing-capybara (0.1.0)
+      capybara (~> 3.38)
+      phlex (>= 0.5)
     propshaft (0.9.1)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -235,6 +240,9 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails_heroicon (2.2.0)
+      actionview
+      railties
     rainbow (3.1.1)
     rake (13.2.1)
     rdoc (6.7.0)
@@ -359,9 +367,12 @@ DEPENDENCIES
   jbuilder
   kamal
   phlex-rails
+  phlex-tabler_icons
+  phlex-testing-capybara
   propshaft
   puma (>= 5.0)
   rails!
+  rails_heroicon
   redis (>= 4.0.1)
   rubocop-rails-omakase
   selenium-webdriver
