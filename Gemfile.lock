@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 8bf495a6226089e0cd67acfb66a59654cf4fe0f7
+  revision: 35bfb52609289a29b232f39b8a921d0ab46babe3
   branch: main
   specs:
     actioncable (8.0.0.alpha)
@@ -172,9 +172,9 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    minitest (5.25.0)
+    minitest (5.25.1)
     msgpack (1.7.2)
-    net-imap (0.4.14)
+    net-imap (0.4.15)
       date
       net-protocol
     net-pop (0.1.2)
@@ -305,7 +305,7 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.1)
     strscan (3.1.0)
-    thor (1.3.1)
+    thor (1.3.2)
     thruster (0.1.8)
     thruster (0.1.8-aarch64-linux)
     thruster (0.1.8-arm64-darwin)
